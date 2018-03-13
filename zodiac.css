@@ -1,0 +1,124 @@
+body {background-color: #1a237e;
+width: 100%;
+overflow: hidden;
+height: auto;
+background-image: url("assets/zodiac-background.svg");
+background-repeat: none;
+background-size: cover;}
+
+h1 {color: white;
+font-size: 3em;}
+
+main {width: 100%;
+padding-left: 5%;
+font-color: white;
+}
+
+
+#form-container {width: 100%;
+height: auto;
+margin-bottom: 125px;
+margin-top: 75px;}
+
+
+
+input {width: 200px;
+height: 30px;
+background-color: transparent;
+border-bottom: 1px solid lightgray;
+border-left: none;
+border-right: none;
+border-top: none;
+color: white;}
+
+input[type="submit"] 
+{display: inline;
+width: 100px;
+margin: 0 50px;
+border: 1px solid lightgray;}
+
+
+#icon-container {width: 100%;
+height: 100px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+grid-row-gap: 50px;}
+
+.icon {width: 80px;
+height: 80px;
+border-radius: 50%;
+z-index: 10;}
+
+#leela-btn {background-image: url("assets/aries.png");
+background-size: cover;}
+
+#taurus {background-image: url("assets/taurus.png");
+background-size: cover;}
+
+#gemini {background-image: url("assets/gemini.png");
+background-size: cover;}
+
+#cancer {background-image: url("assets/cancer.png");
+background-size: cover;}
+
+#leo {background-image: url("assets/leo.png");
+background-size: cover;}
+
+#virgo {background-image: url("assets/virgo.png");
+background-size: cover;}
+
+#libra {background-image: url("assets/libra.png");
+background-size: cover;}
+
+#scorpio {background-image: url("assets/scorpio.png");
+background-size: cover;}
+
+#early-btn {background-image: url("assets/sagittarius.png");
+background-size: cover;}
+
+#capricorn {background-image: url("assets/capricorn.png");
+background-size: cover;}
+
+#aquarius {background-image: url("assets/aquarius.png");
+background-size: cover;}
+
+#pisces {background-image: url("assets/pisces.png");
+background-size: cover;}
+
+
+
+#darken {width: 100%;
+height: 100vh;
+background-color: rgba(0, 0, 0, .7);
+position: fixed;
+top: 0;
+left: 0;
+z-index: 50;
+display: none;
+justify-content: center;}
+
+#result-display {position: absolute;
+height: 500px;
+width: 40%;
+background-color: white;
+left: 0; 
+right: 0; 
+margin-left: auto; 
+margin-right: auto;
+top: 15%;
+border-radius: 5%;
+z-index: 60;
+display: none;}
+
+
+img {max-height: 200px;
+display: none;
+position: absolute}
+
+.display {display: block;}
+
+
+
+
+
+
