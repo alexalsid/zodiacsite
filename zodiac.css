@@ -7,12 +7,46 @@ background-repeat: none;
 background-size: cover;}
 
 h1 {color: white;
-font-size: 3em;}
+font-size: 3em;
+font-family: 'Comfortaa', sans-serif;
+margin-top: 50px;}
 
 main {width: 100%;
 padding-left: 5%;
-font-color: white;
 }
+
+#help {position: absolute;
+top: 0;
+left: 95%;
+}
+
+#directions {width: 50%;
+height: 150px;
+background-color: white;
+position: absolute;
+left: 0; 
+right: 0; 
+margin-left: auto; 
+margin-right: auto;
+top: 30%;
+z-index: 70;
+padding: 20px;}
+
+
+h3 {font-family: 'Comfortaa', sans-serif;
+text-align: center;
+margin-top: 30px;}
+
+#leave {position: absolute;
+top: 0;
+left: 94%;
+transform: translateY(-15px);}
+
+#instructions {font-family: 'Roboto', sans-serif;}
+
+.no-display-directions {display: none;}
+
+.display-directions {display: block;}
 
 
 #form-container {width: 100%;
@@ -32,7 +66,7 @@ border-top: none;
 color: white;}
 
 input[type="submit"] 
-{display: inline;
+{display: inline-block;
 width: 100px;
 margin: 0 50px;
 border: 1px solid lightgray;}
@@ -52,37 +86,37 @@ z-index: 10;}
 #leela-btn {background-image: url("assets/aries.png");
 background-size: cover;}
 
-#taurus {background-image: url("assets/taurus.png");
+#princess-carolyn-btn {background-image: url("assets/taurus.png");
 background-size: cover;}
 
-#gemini {background-image: url("assets/gemini.png");
+#mastershake-btn {background-image: url("assets/gemini.png");
 background-size: cover;}
 
-#cancer {background-image: url("assets/cancer.png");
+#frylock-btn {background-image: url("assets/cancer.png");
 background-size: cover;}
 
-#leo {background-image: url("assets/leo.png");
+#kyle-btn {background-image: url("assets/leo.png");
 background-size: cover;}
 
-#virgo {background-image: url("assets/virgo.png");
+#fry-btn {background-image: url("assets/virgo.png");
 background-size: cover;}
 
-#libra {background-image: url("assets/libra.png");
+#bender-btn {background-image: url("assets/libra.png");
 background-size: cover;}
 
-#scorpio {background-image: url("assets/scorpio.png");
+#cartman-btn {background-image: url("assets/scorpio.png");
 background-size: cover;}
 
 #early-btn {background-image: url("assets/sagittarius.png");
 background-size: cover;}
 
-#capricorn {background-image: url("assets/capricorn.png");
+#bojack-btn {background-image: url("assets/capricorn.png");
 background-size: cover;}
 
-#aquarius {background-image: url("assets/aquarius.png");
+#rusty-btn {background-image: url("assets/aquarius.png");
 background-size: cover;}
 
-#pisces {background-image: url("assets/pisces.png");
+#meatwad-btn {background-image: url("assets/pisces.png");
 background-size: cover;}
 
 
@@ -108,14 +142,45 @@ margin-right: auto;
 top: 15%;
 border-radius: 5%;
 z-index: 60;
-display: none;}
+}
 
 
 img {max-height: 200px;
-display: none;
-position: absolute}
+position: absolute;
+right: 0;
+left: 0;
+margin-right: auto;
+margin-left: auto;
+margin-top: 20px;
+grid-row: 2/3;
+grid-columns: 1/3;}
 
-.display {display: block;}
+.no-display {display: none;}
+
+.display {display: grid;
+grid-template-rows: .5fr 4fr 2fr 2fr;
+grid-template-columns: 4fr 1fr;
+justify-items: center;}
+
+#character{grid-row: 3/4;
+grid-column: 1/3;
+text-align: center;
+margin: 0 30px;
+align-self: center;
+font-family: 'Comfortaa';
+}
+
+#blurb {grid-row: 4/5;
+grid-column: 1/3;
+font-family: 'Roboto', sans-serif;
+margin: 0 20px;
+}
+
+#exit {grid-row: 1/2;
+grid-column: 2/3;
+transform: translateY(-10px);
+transform: translateX(10px);
+}
 
 
 
